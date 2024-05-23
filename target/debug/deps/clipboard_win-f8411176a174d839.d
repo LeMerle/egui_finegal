@@ -1,0 +1,10 @@
+C:\Users\nathan.wilder\Documents\Rust\egui_finegal\target\debug\deps\libclipboard_win-f8411176a174d839.rmeta: C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\lib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\formats.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\raw.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\dib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\image.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\utils.rs
+
+C:\Users\nathan.wilder\Documents\Rust\egui_finegal\target\debug\deps\clipboard_win-f8411176a174d839.d: C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\lib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\formats.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\raw.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\dib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\image.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\utils.rs
+
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\lib.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\formats.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\raw.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\dib.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\image.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\clipboard-win-3.1.1\src\utils.rs:

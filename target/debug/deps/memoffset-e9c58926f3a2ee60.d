@@ -1,0 +1,10 @@
+C:\Users\nathan.wilder\Documents\Rust\egui_finegal\target\debug\deps\libmemoffset-e9c58926f3a2ee60.rmeta: C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\lib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\raw_field.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\offset_of.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\span_of.rs
+
+C:\Users\nathan.wilder\Documents\Rust\egui_finegal\target\debug\deps\libmemoffset-e9c58926f3a2ee60.rlib: C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\lib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\raw_field.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\offset_of.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\span_of.rs
+
+C:\Users\nathan.wilder\Documents\Rust\egui_finegal\target\debug\deps\memoffset-e9c58926f3a2ee60.d: C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\lib.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\raw_field.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\offset_of.rs C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\span_of.rs
+
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\lib.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\raw_field.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\offset_of.rs:
+C:\Users\nathan.wilder\.cargo\registry\src\index.crates.io-6f17d22bba15001f\memoffset-0.6.5\src\span_of.rs:
