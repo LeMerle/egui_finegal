@@ -1,10 +1,10 @@
 mod maze_gen;
-mod player_movement; // Add the player_movement module here
+mod player_movement;
 use eframe::{egui, epi};
 //use egui::Painter;
 use maze_gen::Maze;
-use player_movement::Player; // Import the Player struct from the player_movement module
-use std::default::Default; // Import the Default trait
+use player_movement::Player;
+use std::default::Default;
 
 struct MyApp {
     maze: Maze,
@@ -65,14 +65,51 @@ impl epi::App for MyApp {
                     }
                 }
             }
+            let cell_size = 20.0; // Define the cell_size variable
+            let player_pos = self.player.position; // Assuming `position` is a field in `Player`
+            let player_rect = egui::Rect::from_min_size(
+                egui::Pos2::new(
+                    player_pos.x as f32 * cell_size,
+                    player_pos.y as f32 * cell_size,
+                ),
+                egui::Vec2::new(cell_size, cell_size),
+            );
+            let red = egui::Color32::RED;
+            painter.rect_filled(player_rect, 0.0, red);
+            // Handle keyboard input
+            let mut new_position = self.player.position;
+            let mut direction = egui::Vec2::new(0.0, 0.0);
+            if ctx.input().key_pressed(egui::Key::ArrowUp) {
+                new_position.y -= 1.0;
+                direction.y = -1.0;
+            }
+            if ctx.input().key_pressed(egui::Key::ArrowDown) {
+                new_position.y += 1.0;
+                direction.y = 1.0;
+            }
+            if ctx.input().key_pressed(egui::Key::ArrowLeft) {
+                new_position.x -= 1.0;
+                direction.x = -1.0;
+            }
+            if ctx.input().key_pressed(egui::Key::ArrowRight) {
+                new_position.x += 1.0;
+                direction.x = 1.0;
+            }
+
+            // Check if the new position is a wall
+            if !self.maze.is_wall(self.player.position, direction) {
+                // If not, move the player
+                self.player.position = new_position;
+            }
         });
     }
 }
 
 fn main() {
+    let start_position = egui::Pos2::new(0.0, 0.0);
     let mut app = MyApp {
-        maze: Maze::new(20, 20),
-        player: Player::default(), // Add the player field with a default value
+        maze: Maze::new(30, 30),
+        player: Player::new(start_position), // Add the player field with a default value
     };
     app.maze.generate();
     let native_options = eframe::NativeOptions::default();

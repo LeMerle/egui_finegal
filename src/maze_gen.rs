@@ -40,6 +40,32 @@ impl Maze {
         ];
         Self { grid }
     }
+    pub fn is_wall(&self, current: egui::Pos2, direction: egui::Vec2) -> bool {
+        // Convert the position to a cell index
+        let cell_x = current.x as usize;
+        let cell_y = current.y as usize;
+
+        // Check if the cell index is out of bounds
+        if cell_y >= self.grid.len() || cell_x >= self.grid[cell_y].len() {
+            return true;
+        }
+
+        // Check if the wall in the direction of the movement is present
+        let cell = &self.grid[cell_y][cell_x];
+        if direction.x < 0.0 {
+            // Moving left, check the left wall
+            cell.walls[3]
+        } else if direction.x > 0.0 {
+            // Moving right, check the right wall
+            cell.walls[1]
+        } else if direction.y < 0.0 {
+            // Moving up, check the top wall
+            cell.walls[0]
+        } else {
+            // Moving down, check the bottom wall
+            cell.walls[2]
+        }
+    }
 
     pub fn generate(&mut self) {
         let start_x = rand::random::<usize>() % self.grid[0].len();

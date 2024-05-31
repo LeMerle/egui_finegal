@@ -44,11 +44,11 @@ impl Player {
         let stroke = egui::Stroke::new(2.0, path_color);
 
         // Draw the player
-        painter.rect_filled(
-            egui::Rect::from_center_size(self.position, egui::Vec2::new(10.0, 10.0)),
-            0.0,
-            player_color,
+        let player_rect = egui::Rect::from_min_size(
+            self.position,
+            egui::Vec2::new(10.0, 10.0), // Adjust this based on your maze's cell size
         );
+        painter.rect_filled(player_rect, 0.0, player_color);
 
         // Draw the path
         if self.path.len() > 1 {
